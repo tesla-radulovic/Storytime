@@ -77,7 +77,7 @@ def build_gemini_prompt(
     prompt = (
         f"{history_section}\n\n"
         f"{feedback}\n"
-        "Write a new short story in Russian, 2-3 paragraphs long. "
+        "Write a new short story in Russian, 5-6 paragraphs long. "
         "Do not include any English translation or explanation. The example texts have 'Story' or 'История' in the beginning, you must NOT include it.\n"
         f"{progression}"
     )
